@@ -1,0 +1,24 @@
+{
+  "name": "my-twitter-clone",
+  "version": "1.0.0",
+  "description": "This is a small demo of how to use flexbox.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabioacp/facp-flexbox-twitter-clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabioacp/facp-flexbox-twitter-clone/issues"
+  },
+  "homepage": "https://github.com/fabioacp/facp-flexbox-twitter-clone#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "routes": "^2.1.0"
+  }
+}
