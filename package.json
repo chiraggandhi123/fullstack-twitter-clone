@@ -18,7 +18,15 @@
   "homepage": "https://github.com/fabioacp/facp-flexbox-twitter-clone#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "express-session": "^1.17.1",
     "hbs": "^4.1.1",
-    "routes": "^2.1.0"
+    "mongodb": "^3.6.1",
+    "mongoose": "^5.10.3",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "routes": "^2.1.0",
+    "sequelize": "^6.3.5",
+    "sqlite": "^4.0.14",
+    "sqlite3": "^5.0.0"
   }
 }

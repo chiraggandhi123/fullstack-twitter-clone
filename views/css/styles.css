@@ -10,7 +10,16 @@ body {
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
 }
-
+.body-overlay {
+  background:gray; 
+      
+  position: absolute;  
+  top: 0;               
+  right: 0;             
+  bottom: 0;
+  left: 0;
+  opacity: 0.5;
+}
 input, button {
   outline: 0;
 }
@@ -23,6 +32,7 @@ input, button {
 
 header#main-header {
   height: 46px;
+  margin-bottom:100px;
   background: #fff;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
   position: relative; 
@@ -488,4 +498,9 @@ div.wrapper-content aside.widgets .follow ul li > a {
   color: #ccd6dd;
   text-decoration: none;
   font-size: 14px;
+}
+
+.form
+{
+  display: flex;
 }
